@@ -1,0 +1,122 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #444;
+}
+
+/* Form and Input Styles */
+label {
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Header background color */
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 'No Data' row styles */
+#noDataRow {
+    font-style: italic;
+    color: #888;
+}
+
+/* Top Student Section */
+#top-student {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Centered text in table header */
+table th {
+    text-align: center;
+}
+
+/* Add some margin to the bottom of the page */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
