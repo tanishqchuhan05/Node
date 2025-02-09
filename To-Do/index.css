@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(135deg, #6d83f2, #8ec5fc);
+    color: #333;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    border-radius: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .list-group-item .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .list-group-item button {
+    margin-left: 5px;
+  }
+  
+  .btn-warning {
+    color: white;
+  }
+  
+  .editing {
+    background-color: #f7f7f7;
+  }
+  
+  .edit-input {
+    margin-bottom: 10px;
+  }
+  
+  .edit-btn {
+    margin-top: 5px;
+  }
+  
